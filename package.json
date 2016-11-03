@@ -1,0 +1,15 @@
+{
+  "name": "allow-options",
+  "version": "0.0.1",
+  "description": "npm that acknowledges OPTIONS method",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "middleware",
+    "OPTIONS"
+  ],
+  "author": "sridharrajs <me@sridhar.co> (http://sridhar.co)",
+  "license": "MIT"
+}
