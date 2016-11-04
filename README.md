@@ -10,7 +10,9 @@ An express middleware for acknowledges OPTIONS method
 
     let express = require('express');  
     let allowOptions = require('allow-options');  
-    app.use(allowOptions);
+    app.use('/<routes>', [allowOptions, <other middlewares> ], (req, res, next)=>{
+        // body here
+    });
 
 
 ## License
